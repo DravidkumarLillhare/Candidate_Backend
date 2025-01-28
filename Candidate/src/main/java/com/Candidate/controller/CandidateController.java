@@ -15,7 +15,10 @@ public class CandidateController {
 
     @Autowired
     private CandidateService candidateService;
-
+    @GetMapping("/")
+    public String home() {
+        return "Welcome to the Application!";
+    }
     @GetMapping("/candidates")
     public List<Candidate> getAllCandidates() {
         return candidateService.getAllCandidates();
