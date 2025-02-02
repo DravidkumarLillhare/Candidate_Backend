@@ -1,0 +1,10 @@
+com\Candidate\repository\CandidateResumeRepository.class
+com\Candidate\Service\CandidateResumeService.class
+com\Candidate\repository\CandidateRepository.class
+com\Candidate\Config\WebConfig.class
+com\Candidate\controller\CandidateController.class
+com\Candidate\controller\CandidateResumeController.class
+com\Candidate\entity\CandidateResume.class
+com\Candidate\Service\CandidateService.class
+com\Candidate\entity\Candidate.class
+com\Candidate\CandidateApplication.class
