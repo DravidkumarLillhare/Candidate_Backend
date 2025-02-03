@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Candidate" />
+        <module name="Candidate_backend" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Candidate" options="-parameters" />
+      <module name="Candidate_backend" options="-parameters" />
     </option>
   </component>
 </project>
